@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.DS_Store
+
+# Local databases (may contain personal data) and backups
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets must never be committed — but .streamlit/config.toml SHOULD be
+.streamlit/secrets.toml
